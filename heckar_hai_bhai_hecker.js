@@ -30,7 +30,8 @@ async function main() {
         "scaning files on this device",
         "reading files",
         "Sending all data to server",
-        "Cleaning up"];
+        "Cleaning up",
+        "April fool 😂😂"];
     for (const item of messages) {
         await fun(item);
     }
