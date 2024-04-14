@@ -38,7 +38,7 @@ async function main() {
 main();
 async function fun(item) {
     await random();
-    let div = document.createElement("body");
+    let div = document.createElement("div");
     div.classList.add("hec");
     div.innerHTML = item;
     document.body.append(div);
